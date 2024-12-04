@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#body--container p{
+  margin: 20px 370px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#body--container h1{
+  font-size: 38px;
+  font-weight: 600;
+}
+
+#headeer h1{
+color: #ffffff;
+padding-top: 150px;
+margin-left: 70px;
+}
+
+#headeer video{
+  height: auto;
+  width: 1600px;
+  }
+
+.articulo-title {
+  font-size: 28px;
+  font-weight: 600; 
+}
+
+.articulo-body {
+  font-size: 18px; 
+}
+
+.flourish-large {
+  width: 35%; 
+  height: 600px; 
+}
+
+.flourish-pictogram {
+  width: 50%; 
+  margin: 40px auto; 
+  height: auto; 
+}
+
+.flourish-heatmap {
+  width: 50%; 
+  margin: 40px auto; 
+  height: auto; 
+}
+
+.scroll-video {
+  display: block;
+  width: 100%; 
+  height: auto; 
+}
+
